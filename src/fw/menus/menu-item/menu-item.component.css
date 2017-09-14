@@ -26,6 +26,10 @@
   color: white;
 }
 
+:host(.vertical-menu.in-popup) {
+  padding-left: 16px;
+}
+
 span {
   pointer-events: none;
 }
@@ -35,6 +39,10 @@ span {
   font-size: 14px;
   margin-right: 4px;
   margin-left: 8px;
+}
+
+.glyphicon-menu-left, .glyphicon-menu-right, .glyphicon-menu-down {
+  float: right;
 }
 
 .menu-item {

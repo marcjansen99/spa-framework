@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'fw-body',
+  selector: 'fw-framework-body',
   templateUrl: './framework-body.component.html',
   styleUrls: ['./framework-body.component.css']
 })
